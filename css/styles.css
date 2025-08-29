@@ -62,11 +62,11 @@ body {
     100% { transform: scale(1); }
 }
 
-/* @media(width < 550px) {
+@media(width < 550px) {
     .cuenta-atras {
         display: grid;
         grid-template-columns: 1fr 1fr;
         flex-direction: column;
         
     }
-} */
+}
