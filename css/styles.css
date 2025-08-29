@@ -63,8 +63,10 @@ body {
 }
 
 @media(width < 550px) {
-    .grande {
-        font-size: 2rem;
+    .cuenta-atras {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        flex-direction: column;
         
     }
 }
