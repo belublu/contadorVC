@@ -52,17 +52,21 @@ body {
     animation: pulse 4s infinite;
 }
 
+.chico {
+    font-size: 2rem;
+}
+
 @keyframes pulse {
     0% { transform: scale(1); }
     50% { transform: scale(1.1); }
     100% { transform: scale(1); }
 }
 
-@media(width < 550px) {
+/* @media(width < 550px) {
     .cuenta-atras {
         display: grid;
         grid-template-columns: 1fr 1fr;
         flex-direction: column;
         
     }
-}
+} */
