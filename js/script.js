@@ -14,7 +14,7 @@ let spanFecha = document.querySelector("#fecha")
 let cuentaAtras = document.querySelector("#cuentaAtras")
 
 /* Al span le paso la fecha a la que quiero llegar */
-spanFecha.innerText = fecha.toLocaleDateString()
+// spanFecha.innerText = fecha.toLocaleDateString() Se lo saqué. 
 
 /* Ahora actualizo horas, minutos y segundos cada 1 segundo */
 /* Nombro con una variable el setInterval para poder cortarlo cuando llegue al final */
