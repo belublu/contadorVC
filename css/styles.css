@@ -92,6 +92,10 @@ body {
 
 @media (max-width: 575px) {
     body {
+        background-image: url(../src/Fondo.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
         min-height: 100vh;
         overflow-x: hidden;
         display: flex;
@@ -102,14 +106,7 @@ body {
         text-align: center;
         overflow-x: hidden;
         overflow-y: hidden
-    }
-
-    html {
-        background-image: url(../src/Fondo.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-}   
+    } 
 
     .fecha {
         font-size: 3rem;
