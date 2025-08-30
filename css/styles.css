@@ -91,9 +91,6 @@ body {
 }
 
 @media (max-width: 575px) {
-    body {
-        background-attachment: fixed;
-    }
     .fecha {
         font-size: 3rem;
         margin-bottom: 50px;
